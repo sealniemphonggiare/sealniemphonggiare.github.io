@@ -1,2 +1,1 @@
-# sealniemphonggiare.github.io
-landing page
+https://lamhaimy.github.io/
