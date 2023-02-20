@@ -1,4 +1,141 @@
-
+.flex {
+  display: flex;
+}
+.logo {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  font-size: 22px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.header {
+  border-bottom: 1px solid #e3e3e3;
+  height: 60px;
+  margin-bottom: 20px;
+}
+.btn-view {
+  position: relative;
+  float: left;
+  padding: 7px 25px 7px 25px;
+  background: #dfcd50;
+  color: #fff;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  text-transform:unset;
+  float: right;
+}
+.home1 {
+  justify-content: space-between;
+  height: 800px;
+}
+h1 {
+  font-size: 50px !important;
+  color: #222;
+}
+.contentHr {
+  border-top: 1px solid #dfcd50;
+  margin-bottom: 20px;
+}
+.leftbox {
+  width: 30%;
+  max-width: 50%;
+  margin: 0px 30px;
+  justify-content: center;
+  flex-direction: column;
+}
+.leftChildBox p{
+  color: #989898;
+}
+.rightbox {
+  width: 70%;
+  max-width: 50%;
+  position: relative;
+  margin: 0px 30px;
+}
+.banner-img-item-1 {
+  position: absolute;
+  width: 23%;
+  top: 5%;
+  left: 0;
+  transform: translate3d(0px, 0px, 0px);
+  transition-duration: 0ms
+}
+.banner-img-1 {
+  background: url(../images/2.png);
+  padding-bottom: 424%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner-img-item-2 {
+  transform: translate3d(0px, 0px, 0px);
+    transition-duration: 0ms;
+    position: absolute;
+    width: 15%;
+    top: 0;
+    left: 24.8%;
+}
+.banner-img-2 {
+  background: url(../images/4.png);
+  padding-bottom: 851%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-img-3 {
+  background: url(../images/5.png);
+  padding-bottom: 766%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-img-item-3 {
+  transform: translate3d(0px, 0px, 0px);
+  transition-duration: 0ms;
+  position: absolute;
+  width: 15%;
+  top: 5%;
+  left: 41.5%;
+}
+.banner-img-item-4 {
+  transform: translate3d(0px, 0px, 0px);
+  transition-duration: 0ms;
+  position: absolute;
+  width: 15%;
+  top: 15%;
+  left: 58.3%;
+}
+.banner-img-4 {
+  background: url(../images/2.png);
+  padding-bottom: 700%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner-img-item-5 {
+  transform: translate3d(0px, 0px, 0px);
+  transition-duration: 0ms;
+  position: absolute;
+  width: 24.5%;
+  top: 4%;
+  left: 75%;
+}
+.banner-img-5 {
+  background: url(../images/4.png);
+  padding-bottom: 500%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 #myBtn {
   display: none;
   position: fixed;
@@ -314,4 +451,100 @@ align-self: flex-end;
   background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+h1.section2 {
+  text-align: center;
+}
+.contentHrCenter {
+  border-top: 1px solid #dfcd50;
+  width: 100px;
+  margin: 0px auto 20px;
+}
+.buttonWrapper {
+  justify-content: center;
+}
+.home2 {
+  margin-top: 30px;
+}
+.btnChange {
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  line-height: 28px;
+  padding: 0 20px;
+  margin: 0 5px;
+  font-size: 14px;
+  color: #a1a1a1;
+  cursor: pointer;
+  padding-top: 2px;
+}
+.btnChange.active {
+  background-color: #dfcd50;
+}
+.topBox {
+  flex-direction: column;
+  margin: 0px 30px;
+}
+@media screen and (min-width: 750px) and (max-width: 900px) {
+  .home1 {
+    height: 580px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .home1 {
+    flex-direction: column-reverse;
+    height: 730px;
+  }
+  .leftbox {
+    width: 100%;
+    max-width: fit-content;
+  }
+  .rightbox {
+    width: 100%;
+    max-width: none;
+  }
+  .bannerImage {
+    padding-bottom: 60%;
+  }
+  .banner-img-item-1 {
+    width: 20%;
+  }
+  .banner-img-1 {
+    padding-bottom: 334%;
+  }
+  .banner-img-item-2 {
+    width: 14%;
+    left: 22%
+  }
+  .banner-img-2 {
+    padding-bottom: 500%;
+  }
+  .banner-img-item-3 {
+    width: 14%;
+    left: 38%
+  }
+  .banner-img-3 {
+    padding-bottom: 458%;
+  }
+  .banner-img-item-4 {
+    width: 14%;
+    left: 54%
+  }
+  .banner-img-4 {
+    padding-bottom: 429%;
+    left: 54%;
+  }
+  .banner-img-item-5 {
+    width: 16%;
+    left: 70%;
+  }
+  .banner-img-5 {
+    padding-bottom: 335%;
+  }
+  .header {
+    border-bottom: none;
+  }
+  .logo {
+    margin-left: 15px;
+  }
 }

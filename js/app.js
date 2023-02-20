@@ -26,3 +26,17 @@ function scrollFunction() {
   }
 }
 
+function changeListItem (index) {
+  let listDefault = [1, 2, 3]
+  
+  for (let i = 1; i <= listDefault.length; i++) {
+    let elem = document.getElementById(`btnChange-${index}`)
+    if (index === i) {
+      elem.classList.add("active")
+    } else {
+      let el = document.getElementById(`btnChange-${i}`)
+      let isActive = el.classList.contains("active")
+      if(isActive) el.classList.remove("active")
+    }
+  }
+}
