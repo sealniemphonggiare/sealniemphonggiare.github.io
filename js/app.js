@@ -31,12 +31,17 @@ function changeListItem (index) {
   
   for (let i = 1; i <= listDefault.length; i++) {
     let elem = document.getElementById(`btnChange-${index}`)
+    let box = document.getElementById(`box-${index}`)
     if (index === i) {
       elem.classList.add("active")
+      box.classList.add("grid")
     } else {
       let el = document.getElementById(`btnChange-${i}`)
+      let boxEl = document.getElementById(`box-${i}`)
       let isActive = el.classList.contains("active")
       if(isActive) el.classList.remove("active")
+      let isShow = boxEl.classList.contains("grid")
+      if(isShow) boxEl.classList.remove("grid")
     }
   }
 }

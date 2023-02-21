@@ -21,15 +21,16 @@
         <div></div>
       </div>
     </header>
+    <!-- home 1 -->
     <section>
       <div class="wow fadeInLeft" data-wow-duration="1.5s">
         <div class="flex home1 container">
           <div class="flex leftbox">
             <div class="leftChildBox">
-              <h1>Design Interior</h1>
+              <h1>SEAL NIÊM PHONG</h1>
               <div class="contentHr"></div>
-              <p>Curabitur ultricies semper eleifend. Pellentesque molestie purus non something else not tempus bibendum mattis making something</p>
-              <a href="javascript: void(0)" class="btn-view">Xem thêm</a>
+              <p>Xem những sản phẩm seal niêm phong của chúng tôi</p>
+              <a href="#sanpham" class="btn-view">Xem thêm</a>
             </div>
           </div>
           <div class="flex rightbox">
@@ -54,145 +55,94 @@
         </div>
       </div>
     </section>
+    <!-- home 2 -->
     <section>
-      <div class="wow fadeInLeft" data-wow-duration="1.5s">
+      <div id="sanpham" class="wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">
         <div class="flex home2 container">
           <div class="flex topBox">
-              <h1 class="section2">Design Interior</h1>
+              <h1 class="section2">NAMHAICO</h1>
               <div class="contentHrCenter"></div>
-              <p>Curabitur ultricies semper eleifend. Pellentesque molestie purus non something else not tempus bibendum mattis making something</p>
+              <p class="subNamhai">Tất cả seal niêm phong của Nam Hải đều có chất lượng đạt chuẩn <strong>ISO 17712:2013</strong></p>
               <div class="flex buttonWrapper">
-                <button onclick="changeListItem(1)" id="btnChange-1" class="btnChange" title="SP 1">SP 1</button>
-                <button onclick="changeListItem(2)" id="btnChange-2" class="btnChange" title="SP 2">SP 2</button>
-                <button onclick="changeListItem(3)" id="btnChange-3" class="btnChange" title="SP 3">SP 3</button>
+                <button onclick="changeListItem(1)" id="btnChange-1" class="btnChange active" title="SP 1">SEAL DÂY DẸP</button>
+                <button onclick="changeListItem(2)" id="btnChange-2" class="btnChange" title="SP 2">SEAL CÁP NHÔM</button>
+                <button onclick="changeListItem(3)" id="btnChange-3" class="btnChange" title="SP 3">SEAL CONTAINER</button>
               </div>
           </div>
           <div class="flex bottomBox">
-            <ul>
-              <li></li>
+            <ul id="box-1" class="box grid">
+              <li class="columnItem">
+                <div class="itemBox">
+                  <img class="imgItem" src="./images/seals/seal1.png" alt="seal1">
+                  <h3 class="title">SEAL NHỰA</h3>
+                  <span class="subTitle flex"><span class="yellow line"></span>hal room</span>
+                </div>
+              </li>
+              <li class="columnItem">
+                <div class="itemBox">
+                  <img class="imgItem" src="./images/seals/seal1.png" alt="seal1">
+                  <h3 class="title">SEAL CÁP NHÔM</h3>
+                  <span class="subTitle flex"><span class="yellow line"></span>hal room</span>
+                </div>
+              </li>
+              <li class="columnItem">
+                <div class="itemBox">
+                  <img class="imgItem" src="./images/seals/seal1.png" alt="seal1">
+                  <h3 class="title">SEAL DÂY DẸP</h3>
+                  <span class="subTitle flex"><span class="yellow line"></span>hal room</span>
+                </div>
+              </li>
+              <li class="columnItem">
+                <div class="itemBox">
+                  <img class="imgItem" src="./images/seals/seal1.png" alt="seal1">
+                  <h3 class="title">SEAL CONTAINER</h3>
+                  <span class="subTitle flex"><span class="yellow line"></span>hal room</span>
+                </div>
+              </li>
+            </ul>
+            <ul id="box-2" class="box">
+              <li class="columnItem">
+                <div class="itemBox">
+                  <img class="imgItem" src="./images/seals/seal2.png" alt="seal1">
+                  <h3 class="title">STUDIO PHOTO SHOOTING</h3>
+                  <span class="subTitle flex"><span class="yellow line"></span>hal room</span>
+                </div>
+              </li>
+              <li class="columnItem">
+                <div class="itemBox">
+                  <img class="imgItem" src="./images/seals/seal2.png" alt="seal1">
+                  <h3 class="title">STUDIO PHOTO SHOOTING</h3>
+                  <span class="subTitle flex"><span class="yellow line"></span>hal room</span>
+                </div>
+              </li>
+              <li class="columnItem">
+                <div class="itemBox">
+                  <img class="imgItem" src="./images/seals/seal2.png" alt="seal1">
+                  <h3 class="title">STUDIO PHOTO SHOOTING</h3>
+                  <span class="subTitle flex"><span class="yellow line"></span>hal room</span>
+                </div>
+              </li>
+            </ul>
+            <ul id="box-3" class="box">
+              <li class="columnItem">
+                <div class="itemBox">
+                  <img class="imgItem" src="./images/seals/seal3.png" alt="seal1">
+                  <h3 class="title">STUDIO PHOTO SHOOTING</h3>
+                  <span class="subTitle flex"><span class="yellow line"></span>hal room</span>
+                </div>
+              </li>
+              <li class="columnItem">
+                <div class="itemBox">
+                  <img class="imgItem" src="./images/seals/seal3.png" alt="seal1">
+                  <h3 class="title">STUDIO PHOTO SHOOTING</h3>
+                  <span class="subTitle flex"><span class="yellow line"></span>hal room</span>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </section>
-    <section>
-      <div class="bgBanner wow fadeInLeft" data-wow-duration="1.5s">
-        <!-- <i class="fas fa-user"></i> -->
-        <h1 class="primaryText wow fadeInUp" data-wow-delay="0.5s">House</h1>
-        <h4 class="wow fadeInUp primaryText" data-wow-delay="1s">See what your design will be like</h4>
-        <div class="boxDiv wow fadeInUp"  data-wow-delay="1.5s">
-          <div class="dividerSeparator"></div>
-        </div>
-      </div>
-    </section>
-    <section class="sectionContainer">
-      <div class="row">
-        <div class="leftColumn column">
-          <div class="cardImg wow fadeInLeftBig">
-            <img src="./images/2.png" alt="Scandinavian style">
-          </div>
-        </div>
-        <div class="rightColumn column">
-          <div class="cardBox">
-            <div class="dividerLeft"></div>
-            <h2 class="primaryText">We build houses in the Scandinavian style</h2>
-            <p>Our main aim is to build both a reliable and modern house in the Scandinavian style. Your comfort and security matters for us.</p>
-            <a href="#" class="boxButton">
-              <div class="overlap">Contact with us <i class="fas fa-arrow-right paddingLeft"></i></div>
-              <div class="overlapHover">Contact with us <i class="fas fa-arrow-right paddingLeft"></i></div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="sectionContainer">
-      <div class="numberOnScroll">
-        <div class="backgroundOverlay slideShow"></div>
-        <div class="stats">
-          <div class="stats-overlay">
-            <div class="statsbar">
-              <h2 class="titleBox primaryFont">Our company in numbers</h2>
-              <div class="boxStart">
-                <div class="stat-one">
-                  <div class="stat-number" data-n="16">
-                    <span class="Single">0</span>
-                  </div>
-                  <div class="stat-title">Implemented projects</div>
-                </div>
-                <div class="stat-two">
-                    <div class="stat-number" data-n="24">0</div>
-                    <div class="stat-title">Staff members</div>
-                </div>
-                <div class="stat-three">
-                    <div class="stat-number" data-n="10">0</div>
-                    <div class="stat-title">Years on the market</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="sectionContainer">
-      <h2 class="primaryText centerAlign">Projects we are proud of</h2>
-    </section>
-    <section class="sectionContainer">
-      <div class="row">
-        <div class="rightColumn column">
-          <div class="cardBox rightPadding">
-            <div class="dividerRight"></div>
-            <h2 class="primaryText alignTextRight">Helkemn</h2>
-            <p class="alignTextRight">Elegant french windows make the rooms spacious</p>
-            <a href="#" class="learnMore"><span class="dividerBottom">LEARN</span> MORE</a>
-          </div>
-        </div>
-        <div class="leftColumn column">
-          <div class="cardImg wow fadeInRightBig" data-wow-duration="1.5s">
-            <img src="./images/4.png" alt="Helkemn">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="sectionContainer">
-      <div class="row">
-        <div class="leftColumn column">
-          <div class="cardImg wow fadeInLeftBig">
-            <img src="./images/5.png" alt="Scandinavian style">
-          </div>
-        </div>
-        <div class="rightColumn column">
-          <div class="cardBox">
-            <div class="dividerLeft"></div>
-            <h2 class="primaryText">Cliff house</h2>
-            <p>Mountain view provides calm and patience</p>
-            <a href="#" class="learnMore startPosition"><span class="dividerBottom">LEARN</span> MORE</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="sectionContainer">
-      <div class="row">
-        <div class="rightColumn column">
-          <div class="cardBox rightPadding">
-            <div class="dividerRight"></div>
-            <h2 class="primaryText alignTextRight">Forest house</h2>
-            <p class="alignTextRight">Wide terrace is a wonderful place for picnics</p>
-            <a href="#" class="learnMore"><span class="dividerBottom">LEARN</span> MORE</a>
-          </div>
-        </div>
-        <div class="leftColumn column">
-          <div class="cardImg wow fadeInRightBig" data-wow-duration="1.5s">
-            <img src="./images/6.png" alt="Helkemn">
-          </div>
-        </div>
-      </div>
-    </section>
-
-  <section class="sectionContainer centerAlign wow bounceIn" data-wow-offset="2"  data-wow-iteration="2">
-    <a href="#" class="boxButtonCenter">
-      <div class="overlap">All projects <i class="fas fa-arrow-right paddingLeft"></i></div>
-    </a>
-  </section>
   <section class="sectionContainer">
   </section>
   <!-- <div class="animate__animated animate__bounce animate__delay-2s">Example</div> -->
