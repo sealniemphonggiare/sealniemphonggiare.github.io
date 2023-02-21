@@ -537,7 +537,7 @@ h1.section2 {
 @media screen and (max-width: 750px) {
   .home1 {
     flex-direction: column-reverse;
-    height: 730px;
+    height: 580px;
   }
   .leftbox {
     width: 100%;
